@@ -1,0 +1,4 @@
+etcd	gcr.io/google_containers/etcd-amd64:3.1.11
+kube-apiserver	gcr.io/google_containers/kube-apiserver-amd64:v1.11.7
+kube-controller-manager	gcr.io/google_containers/kube-controller-manager-amd64:v1.11.7
+kube-scheduler	gcr.io/google_containers/kube-scheduler-amd64:v1.11.7
