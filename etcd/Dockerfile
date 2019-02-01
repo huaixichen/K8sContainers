@@ -1,2 +1,2 @@
-FROM gcr.io/google_containers/etcd-amd64:3.2.24
+FROM k8s.gcr.io/google_containers/etcd-amd64:3.2.24
 MAINTAINER huaixichen 
