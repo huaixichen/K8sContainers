@@ -3,7 +3,7 @@
 grep -v "#" images | while read moduleName imageName
 do
 	mkdir -p ${moduleName}
-	cat > ${moduleName}/dockfile <<EOF
+	cat > ${moduleName}/Dockerfile <<EOF
 FROM ${imageName}
 MAINTAINER huaixichen 
 EOF
